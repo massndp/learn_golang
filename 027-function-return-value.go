@@ -2,15 +2,15 @@ package main
 
 import "fmt"
 
-func getHello(name string)string{
-	if name == ""{
+func getHello(name string) string {
+	if name == "" {
 		return "Hello Cok!"
-	}else{
+	} else {
 		return "Hello" + name
 	}
 }
 
-func main(){
+func main() {
 	result := getHello("Bayu Adi P")
 	fmt.Println(result)
 
